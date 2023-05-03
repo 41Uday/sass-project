@@ -8,3 +8,41 @@ h1 {
 p {
     color: $myColor;
 }
+
+nav {
+    ul {
+       margin: 0;
+       padding: 0;
+       list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+
+center {
+    padding-top: 30px;
+}
+
+
+
+
+font {
+    family : "Roboto";
+    weight : bold;
+    size : 18px;
+}
+
+text {
+    align: center;
+    transform: lowercase;
+    overflow: hidden;
+  }

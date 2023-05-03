@@ -4,8 +4,13 @@ import './index.scss'
 const Home = () => {
     return(
         <center>
-            <h1>This is a Home Route</h1>
-            <p>This is parapraph for  styling I have used sass</p>
+        <nav>
+            <ul>
+                <li><a href="www.google.com">HTML</a></li>
+                <li><a href="www.google.com">CSS</a></li>
+                <li><a href="www.google.com">SASS</a></li>
+            </ul>
+        </nav>
         </center>
     )
 }
