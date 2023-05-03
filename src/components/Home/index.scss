@@ -1,7 +1,7 @@
 $myColor : red;
 
 h1 {
-    $myColor : green;
+    $myColor : green !global;
     color: $myColor;
 }
 
